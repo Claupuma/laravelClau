@@ -1,11 +1,9 @@
 @extends('pagPlantilla')
 
 @section('titulo')
-    <h1>Pagina Galeria</h1>
-
+  <h1>Pagina Galeria</h1>
 @endsection
 
 @section('seccion')
-    <h3>este codigo de la foto. 7</h3>
-
+  <h3>Codigo de la foto {{ $otro }} -- {{ $valor }} </h3>
 @endsection
