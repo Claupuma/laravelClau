@@ -8,7 +8,9 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     * @return void
      */
+
     public function up(): void
     {
         Schema::create('estudiantes', function (Blueprint $table) {
@@ -16,8 +18,8 @@ return new class extends Migration
             $table->string('codEst');
             $table->string('nomEst');
             $table->string('apeEst');
-            $table->integer('turMat');
             $table->date('fnaEst');
+            $table->integer('turMat');
             $table->integer('semMat');
             $table->integer('estMat');
             $table->timestamps();

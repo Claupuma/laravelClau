@@ -9,4 +9,3 @@ class Estudiante_detalle extends Model
 {
     use HasFactory;
 }
-

@@ -93,6 +93,7 @@
         <th scope="col">#</th>
         <th scope="col">Codigo</th>
         <th scope="col">Oficio actual</th>
+        <th scope="col">Fecha</th>
         <th scope="col">Edición</th>
       </tr>
     </thead>

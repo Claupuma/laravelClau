@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('seguimientos', function (Blueprint $table) {
             $table->id();
+            $table->integer('idEst');
+            $table->string('traAct');
+            $table->string('ofiAct');
+            $table->integer('satEst');
+            $table->date('fecSeg');
+            $table->integer('estSeg');
             $table->timestamps();
         });
     }
@@ -25,3 +31,4 @@ return new class extends Migration
         Schema::dropIfExists('seguimientos');
     }
 };
+

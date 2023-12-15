@@ -93,10 +93,13 @@
           </a>
         </td>
       </tr>
+      @endforeach
     </tbody>
 
-    @endforeach
+    
 
   </table>
+
+  {{ $xAlumnos->links() }} 
  
 @endsection

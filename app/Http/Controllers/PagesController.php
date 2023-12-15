@@ -69,7 +69,7 @@ class PagesController extends Controller
 
 
     public function fnLista(){
-        $xAlumnos = Estudiante::all();
+        $xAlumnos = Estudiante::paginate(4);
         return view('pagLista', compact('xAlumnos'));
     }
 
